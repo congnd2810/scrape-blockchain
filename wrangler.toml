@@ -5,5 +5,10 @@ compatibility_date = "2023-11-21"
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
 # Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
+account_id = "6991066063047aece804c8592b9c2abc"
+workers_dev = true
 [triggers]
 crons = ["*/60 * * * *"] # * * * * * = run every minute
+[[r2_buckets]]
+binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'articles-blockchain'

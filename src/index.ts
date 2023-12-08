@@ -86,7 +86,7 @@ export default {
 		//HỌC PTKT - Mô Hình Giá
 		let mohinhgiaUrl = 'https://marginatm.com/menu/mo-hinh-gia'
 
-		let resp = await fetch('https://marginatm.com/menu/kiem-tien');
+		let resp = await fetch(arUrl);
 		let content = await resp.text()
 		let wasSuccessful = resp.ok ? 'success' : 'fail';
 		const $ = cheerio.load(content)
