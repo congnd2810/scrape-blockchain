@@ -96,3 +96,4 @@ export default {
 		if (wasSuccessful) console.log(pageTitle);
 	},
 };
+// https://marginatm.com/_next/data/amberblocks-website/menu/tin-tuc-bitcoin.json?site=marginatm&keyword=tin-tuc-bitcoin&slug=menu&channelName=tin-tuc-bitcoin    Bitcoin tạo cấu trúc sóng giảm
